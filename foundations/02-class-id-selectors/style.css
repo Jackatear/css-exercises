@@ -1,0 +1,29 @@
+* {
+    font-family: Verdana, DejaVu Sans, Tahoma, sans-serif;
+}
+
+.class1 {
+    background-color: lightcoral;
+    font-size: small;
+}
+
+.class1.special_class {
+    font-size: large;
+    font-weight:bold;
+
+}
+
+.class1.another_class {
+    font-size: medium;
+}
+
+#example_id{
+    color:blue;
+    font-size: x-large;
+
+}
+
+#example_2_id {
+    background-color: rgb(124, 255, 124);
+    font-weight: bold;
+}
