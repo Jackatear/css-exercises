@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 img {
@@ -24,4 +28,57 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+
+.header {
+  display: flex;
+  flex: 1;
+}
+
+.left-links{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  flex: 1;
+}
+
+.right-links{
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content {
+  flex: 20;
+}
+
+.footer{
+  flex-grow: 1;
+  flex-basis: auto; 
+  padding:0 10px;
+  gap: 16px;
+  margin:0;
+  display: flex;
+  background-color: rgb(164, 154, 154);
+  height: 10px;
+  align-items: center;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
